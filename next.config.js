@@ -4,7 +4,4 @@ module.exports = {
   images: {
     domains: ["links.papareact.com"],
   },
-  json: {
-    domains: ["links.papareact.com"],
-  },
 };
