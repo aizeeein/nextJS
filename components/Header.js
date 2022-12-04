@@ -6,7 +6,7 @@ import {
   UsersIcon,
 } from "@heroicons/react/24/solid";
 
-import { GlobeAltIcon } from "@heroicons/react/24/Outline";
+import { GlobeAltIcon } from "@heroicons/react/24/solid";
 
 function Header() {
   return (
