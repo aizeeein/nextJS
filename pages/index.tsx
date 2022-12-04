@@ -55,12 +55,12 @@ export default function Home({ exploreData, cardsData }: any) {
 }
 
 export async function getStaticProps() {
-  const exploreData = await fetch("http://localhost:8000/trips").then((res) =>
-    res.json()
+  const exploreData = await fetch("https://www.jsonkeeper.com/b/4G1G").then(
+    (res) => res.json()
   );
 
-  const cardsData = await fetch("http://localhost:9000/cards").then((res) =>
-    res.json()
+  const cardsData = await fetch("https://www.jsonkeeper.com/b/VHHT").then(
+    (res) => res.json()
   );
 
   return {
