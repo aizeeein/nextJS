@@ -12,8 +12,9 @@ function InfoCard({ img, location, title, description, star, price, total }) {
           fill
           sizes="100vw"
           style={{
-            objectFit: "cover"
-          }} />
+            objectFit: "cover",
+          }}
+        />
       </div>
       <div className="flex flex-col flex-grow pl-5">
         <div className="flex justify-between">
