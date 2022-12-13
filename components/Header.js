@@ -12,7 +12,7 @@ import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css file
 import { GlobeAltIcon } from "@heroicons/react/24/solid";
 
-function Header({ placeholder }) {
+function Header() {
   const [noOfGuests, setNoOfGuests] = useState(1);
   const [searchInput, setSearchInput] = useState("");
   const [startDate, setStartDate] = useState(new Date());
@@ -57,8 +57,9 @@ function Header({ placeholder }) {
           sizes="100vw"
           style={{
             objectFit: "contain",
-            objectPosition: "left"
-          }} />
+            objectPosition: "left",
+          }}
+        />
       </div>
 
       {/* Middle */}
