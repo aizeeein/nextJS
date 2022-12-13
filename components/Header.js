@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import {
   MagnifyingGlassIcon,
@@ -53,10 +53,12 @@ function Header({ placeholder }) {
       >
         <Image
           src="https://links.papareact.com/qd3"
-          layout="fill"
-          objectFit="contain"
-          objectPosition="left"
-        />
+          fill
+          sizes="100vw"
+          style={{
+            objectFit: "contain",
+            objectPosition: "left"
+          }} />
       </div>
 
       {/* Middle */}
