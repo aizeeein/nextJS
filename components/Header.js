@@ -80,7 +80,7 @@ function Header() {
         <p className="hidden md:inline">ZEIN TRAVEL</p>
         <GlobeAltIcon
           onClick={() => router.push("search")}
-          className="h-6 cursor-pointer"
+          className="hidden md:h-6 md:cursor-pointer"
         />
         <div className="flex items-center space-x-2 border-2 rounded-full p-2">
           <Bars3Icon className="h-6 cursor-pointer" />
