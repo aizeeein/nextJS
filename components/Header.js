@@ -52,7 +52,7 @@ function Header() {
         className="relative flex items-center h-10 cursor-pointer my-auto"
       >
         <Image
-          src="https://links.papareact.com/qd3"
+          src="https://mitradhuafa.com/wp-content/uploads/2020/11/LOGO_KOMIDA.png"
           fill
           sizes="100vw"
           style={{
@@ -60,6 +60,7 @@ function Header() {
             objectPosition: "left",
           }}
         />
+        <h1 className="ml-20 text-gray-500">ZEIN TRAVEL</h1>
       </div>
 
       {/* Middle */}
@@ -76,7 +77,7 @@ function Header() {
 
       {/* Right */}
       <div className="flex items-center space-x-4 justify-end text-gray-500">
-        <p className="hidden md:inline">3:49:21</p>
+        <p className="hidden md:inline">ZEIN TRAVEL</p>
         <GlobeAltIcon
           onClick={() => router.push("search")}
           className="h-6 cursor-pointer"
