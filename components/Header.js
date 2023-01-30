@@ -60,7 +60,7 @@ function Header() {
             objectPosition: "left",
           }}
         />
-        <h1 className="ml-20 text-gray-500">ZEIN TRAVEL</h1>
+        <h1 className="ml-16 text-gray-500">ZEIN TRAVEL</h1>
       </div>
 
       {/* Middle */}
